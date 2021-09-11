@@ -10,7 +10,7 @@ pipeline {
       stage('checkout') {
            steps {
              
-                git branch: 'master', url: 'https://github.com/nagasai535/Tom-Assign-8.git'
+                git branch: 'master', url: ''
              
           }
         }
